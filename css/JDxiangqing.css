@@ -1,0 +1,478 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul, li, ol {
+    list-style: none;
+}
+b, strong {
+    font-weight: normal;
+}
+a, u {
+    text-decoration: none;
+    color:#9f9892;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+i, em {
+    font-style: normal;
+}
+html {
+    background: #f0f3ef;
+}
+.shatcut {
+    height: 30px;
+    background: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+    font-size: 11px;
+    margin-bottom: 8px;
+    /*line-height: 30px;*/
+}
+.shatcut .w {
+    margin: 0 auto;
+    width: 1190px;
+    height: 30px;
+    padding-top: 8px;
+    background: #e3e4e5;
+}
+.fl {
+    float: left;
+}
+.shatcut li {
+    float: left;
+    color: #999999;
+}
+.shatcut .dt {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.shatcut .cw-icon {
+    height: 30px;
+    /*line-height: 30px;*/
+
+margin-left: 200px;
+}
+.cw-icon {
+    /*overflow: hidden;*/
+
+position: relative;
+    z-index: 10;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.cw-icon i {
+    color: red;
+    ;
+}
+.shatcut .a {
+    margin-left: 220px;
+    float: left;
+    margin-right: 8px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.shatcut .span1 {
+    /*display:inline-block;*/
+}
+.shatcut .a span {
+    font-size: 11px;
+}
+/* 下拉框1 方位 */
+
+.xl1 {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    /*bottom:0px;*/
+
+width: 321px;
+    height: 327px;
+    background: #ffffff;
+    z-index: 999;
+    display: none;
+    font-size: 11px;
+    padding: 10px 0px 10px 10px;
+}
+.xl1 .xlxl1 {
+    width: 321px;
+    height: 215px;
+    border-bottom: 1px solid red;
+    float: left;
+}
+.xl1 li {
+    margin-right: 32px;
+    margin-bottom: 1px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.cw-icon:hover .xl1 {
+    display: block;
+}
+.cw-icon:hover {
+    background: #ffffff;
+}
+.a:hover {
+    color: red;
+}
+.shatcut .ul2 {
+    float: left;
+    cursor: pointer;
+}
+.shatcut .ul2 li {
+    float: left;
+    /*border-right: 1px solid green;*/
+
+font-size: 11px;
+    /*    height: 30px;
+    line-height: 30px;*/
+}
+/* 下拉框2 */
+
+.xlxl2 {
+    position: relative;
+    height: 30px;
+}
+.xl2 {
+    width: 282px;
+    height: 161px;
+    background: #ffffff;
+    position: absolute;
+    top: 23px;
+    z-index: 999;
+    display: none;
+    padding: 14px;
+}
+.xlxl2:hover .xl2 {
+    display: block;
+}
+.xlxl2:hover {
+    background: #ffffff;
+}
+.xlxl22 {
+    width: 282px;
+    height: 92px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.xlxl22 ul {
+    width: 282px;
+    height: 11px;
+    float: left;
+    margin-bottom: 13px;
+}
+.xlxl22 li {
+    width: 61px;
+    height: 11px;
+    margin-right: 65px;
+    cursor: pointer;
+}
+.xlxl22 li:hover {
+    color: red;
+}
+.xlxl2_3 {
+    width: 282px;
+    height: 68px;
+}
+.xlxl2_3 ul {
+    width: 282px;
+    height: 11px;
+    float: left;
+    margin-bottom: 13px;
+}
+.xlxl2_3 li {
+    width: 61px;
+    height: 11px;
+    margin-right: 65px;
+    cursor: pointer;
+}
+.xlxl2_3 li:hover {
+    color: red;
+}
+.xl3 {
+    width: 157px;
+    height: 70px;
+    background: #ffffff;
+    position: absolute;
+    top: 23px;
+    z-index: 999;
+    display: none;
+    padding-top: 10px;
+}
+.xlxl2:hover .xl3 {
+    display: block;
+}
+.xl3 ul {
+    width: 267px;
+    height: 11px;
+    float: left;
+    margin-bottom: 13px;
+    padding-left: 15px;
+    font-size: 11px;
+}
+.xl3 li {
+    margin-right: 19px;
+    cursor: pointer;
+}
+.xl3 li:hover {
+    color: red;
+}
+/*下拉框4*/
+
+.xla4 {
+    width: 172px;
+    height: 248px;
+    top: 23px;
+    position: absolute;
+    z-index: 999;
+    left: -115px;
+    display: none;
+}
+.xla4_u {
+    width: 157px;
+    height: 135px;
+    background: #ffffff;
+    overflow: hidden;
+    font-size: 11px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: 1px dashed #eeeeee;
+}
+.xla4_u ul {
+    float: left;
+    height: 11px;
+    margin-bottom: 13px;
+}
+.xla4_u h3 {
+    font-size: 11px;
+    color: #666666;
+    height: 11px;
+    margin-bottom: 13px;
+}
+.xla4_u li {
+    float: left;
+    margin-right: 23px;
+    cursor: pointer;
+}
+.xla4_d {
+    width: 157px;
+    height: 113px;
+    background: #ffffff;
+    padding-left: 15px;
+}
+.xla4_d h3 {
+    font-size: 11px;
+    color: #666666;
+    height: 11px;
+    margin-bottom: 13px;
+}
+.xla4_d ul {
+    float: left;
+    height: 11px;
+    margin-bottom: 13px;
+}
+.xla4_d li {
+    float: left;
+    margin-right: 23px;
+    cursor: pointer;
+}
+.xlxl2:hover .xla4 {
+    display: block;
+}
+.xla4 li:hover {
+    color: red;
+}
+/*下拉框5*/
+
+.xla5 {
+    width: 1190px;
+    height: 180px;
+    background: #ffffff;
+    position: absolute;
+    z-index: 999;
+    left: -937px;
+    top: 23px;
+    display: none;
+    /*display: block;*/
+
+top: 22px;
+}
+.xla5_L1 {
+    width: 340px;
+    height: 148px;
+    float: left;
+    padding: 16px 0px 16px 20px;
+    background: url(../images/shuxian.jpg)no-repeat right 20px;
+}
+.p1 {
+    font-weight: 900;
+    margin-bottom: 18px;
+    height: 11px;
+    font-size: 11px;
+}
+.xla5_L2 {
+    width: 255px;
+    height: 148px;
+    background: pink;
+    float: left;
+    padding: 16px 0px 16px 20px;
+    background: url(../images/shuxian.jpg)no-repeat right 20px;
+}
+.xla5last {
+    background: none;
+}
+.item {
+    overflow: hidden;
+    float: left;
+    width: 85px;
+    white-space: nowrap;
+    margin-bottom: 6px;
+}
+.xla5 .item:hover a {
+    color: red;
+}
+.xlxl2:hover .xla5 {
+    display: block;
+}
+
+
+/*.下拉框6*/
+
+.xla6{
+
+    width: 190px;
+    height: 303px;
+    background: #ffffff;
+   
+    position: absolute;
+    top:23px;
+    z-index: 999;
+    left:-142px;
+    display: none;
+}
+
+.xla6_1{
+
+    width: 185px;
+    height: 75px;
+  
+    border: 1px solid  #cccccc;
+    padding: 15px 0px 10px  5px;
+}
+
+.xla6_1 img{
+
+    border:1px solid #cccccc;
+    float: left ;
+     margin-right: 4px 
+}
+
+.xla6_r{
+    width: 185px;
+    height: 75px;
+    background: white;
+    float:left;
+}
+
+.xla6_r h6{
+    float: left;
+    font-size: 11px;
+    color:#6f6f6f;
+
+}
+
+.xla6_r p{
+    float: left;
+    color:red;
+    font-size: 11px;
+    width: 109px;
+    
+}
+.xla6_r h3{
+    float: left;
+    width: 100px;
+}
+
+.xla6_r .tubiao1{
+        
+    background-image: url(../images/pingguotubiao.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -999px;
+    width: 25px;
+    height: 25px; 
+    float: left;  
+    margin-right: 2px; 
+}
+
+.xla6_r .tubiao2{
+    background-image: url(../images/pingguotubiao.png);
+    background-repeat: no-repeat;
+    background-position: 0 -26px;
+    text-indent: -999px;
+    width: 25px;
+    height: 25px; 
+    float: left;  
+}
+
+.xla6_r .tubiao3{
+    background-image: url(../images/pingguotubiao.png);
+    background-repeat: no-repeat;
+    background-position: 0 -52px;
+    text-indent: -999px;
+    width: 25px;
+    height: 25px; 
+    float: left;  
+}
+
+.xlxl2:hover .xla6{
+    display: block;
+}
+
+
+
+
+/*--------------------------------*/
+
+.shatcut .ul2 .spacer {
+    overflow: hidden;
+    margin: 3px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.shatcut .c {
+    color: red;
+}
+
+
+/* 第二部分 */
+.content_2{
+    margin-top: 1000px;
+    width: 1219px;
+    height: 87px;
+    background: blue;
+    margin:0 auto;
+}
+.content_2 .il{
+  
+    width: 134px;
+    height: 42px;
+    background: yellow;
+    float: left;
+
+   
+   
+}
+.content_2 .il>img{
+    display: block;
+    float: left;
+
+
+}
+
+
+

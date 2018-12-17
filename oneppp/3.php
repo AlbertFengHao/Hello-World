@@ -1,0 +1,15 @@
+<?php
+$a=$_GET['user'];
+$b=$_GET['password'];
+$arr=array('130','155','186');
+$arr2=array("130"=>"333","155"=>"333","186"=>"333");
+if(in_array($a,$arr)){
+    if($arr2[$a]==$b){
+        echo'{"code":2}';
+    }else{
+        echo'{"code":1}';
+    }
+}else{
+    echo'{"code":0}';
+}
+?>

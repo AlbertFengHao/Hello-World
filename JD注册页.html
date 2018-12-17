@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JD登录</title>
+
+
+    <style>
+    
+        *{
+
+            margin: 0;
+            padding: 0;
+
+        }
+
+     i{
+        font-style:normal;
+     }
+    
+
+        #bignav{
+            width: 100%;
+            height: 80px;
+            background: #ffffff;
+            background: black
+        }
+
+        #nav{
+            width: 990px;
+            height: 60px;
+            background: blue;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 10px 0px 10px 0px;
+        }
+
+        #logo{
+            width: 300px;
+            height: 60px;
+       
+            overflow: hidden;
+            float: left;
+          
+        }
+
+        #one{
+            width: 110px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left:20px;
+            text-align: center;
+            font-size: 23px;
+            line-height: 40px;
+          
+      
+            
+        }
+        .kongy{
+            float:right;
+        }
+
+        .kongZ{
+            float:left;
+        }
+
+        #two{
+
+            width: 136px;
+            height: 18px;
+            margin-top:42px;
+        }
+
+        
+        #two span{
+
+            font-size: 12px;
+         
+        }
+
+        .navbig2{
+
+            width: 100%;
+            height: 40px;
+            background: #fff8f0;
+        }
+
+        .big2{
+
+            width: 990px;
+            height: 40px;
+         
+            margin: 0 auto;
+            font-size: 12px;
+            color: #999999;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .big2 i{
+
+            color:#333333;
+        }
+
+        .content_3big{
+
+            width: 100%;
+            height: 475px;
+            background: url(images/denglumain.png) no-repeat center;
+           
+        }
+
+        .content_3big>img{
+            width: 1440px;
+        }
+
+               .content_3_r_u img{
+
+               }
+
+        .content_3{
+
+            width: 990px;
+            height: 475px;
+            margin: 0 auto;
+            background: blue;
+            overflow: hidden;
+        }
+
+        #content_3_r{
+
+            width: 346px;
+            height: 428px;
+            margin-top: 10px;
+            float:right;
+            background: #ffffff;
+           
+
+            
+        }
+
+        .content_3_r_u{
+
+            width: 346px;
+            height: 39px;
+            background: #fff8f0;
+            font-size: 12px;
+            line-height: 39px;
+            overflow: hidden;
+            text-align: center;
+       
+        }
+
+        .content_3_r_u i{
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+        }
+
+        .content_3_r_u p{
+            vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+        }
+
+        .content_3_r_m{
+
+            width: 346px;
+            height: 55px;
+            font-size: 18px;
+            border-bottom: 1px solid #f4f4f4;
+            
+            
+        }
+
+        #content_3_r_m1{
+
+            width: 173px;
+            height: 55px;
+            text-align: center;
+            padding: 19px 0px 17px 0px;
+            float: left;
+            font-weight: 900;
+           
+            background: url(images/cetiao.jpg) no-repeat  right 20px;
+            cursor: pointer;
+        }
+   
+        
+        #content_3_r_m2{
+
+width: 173px;
+height: 55px;
+text-align: center;
+padding: 19px 0px 17px 0px;
+float: left;
+font-weight: 900;
+cursor: pointer;
+        
+}
+
+#content_3_r_m3{
+
+    width:346px;
+    height: 283;
+    background:brown;
+
+  
+}
+
+#content_3_r_m3x{
+
+    width: 346px;
+    height: 283px;
+    background: lime;
+    display: none;
+}
+
+.fd{
+
+    clear: both;
+}
+
+#content_3_r_m31{
+
+    width: 346px;
+    height: 147px;
+    margin-top: 20px;
+    background: gray;
+ 
+    position: relative;
+}
+
+#content_3_r_m32{
+
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    left:100px;
+    /* left:20px; */
+    
+}
+
+#content_3_r_m33{
+
+    width: 148px;
+    height: 168px;
+    position: absolute;
+    left:177px;
+    display: none;
+    
+}
+
+.content_3_r2{
+
+    width: 257px;
+    height: 18px;
+   
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.content_3_r2 i{
+
+    color:#e4393c;
+}
+
+.content_3_r3{
+    width: 266px;
+    height: 25px;
+    background: purple;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.content_3_r3_1{
+
+    /* width: 60px; */
+    height: 25px;
+    float: left;
+    margin-right:5px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.ooo{
+
+    height: 20px;
+    padding: 5px 0px 0px 0px;
+
+   float: left;
+   font-size: 12px;
+   margin-left: 10px;
+   margin-right: 10px
+
+
+}
+
+.foot{
+
+    width: 346px;
+    height: 51px;
+    background: hotpink;
+    margin:0 auto;
+    line-height: 51px;
+
+}
+
+.footer{
+
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 70px;
+
+}
+
+
+
+  
+
+    
+    
+    </style>
+</head>
+<body>
+        <!-- contert_1 -->
+        <div id="bignav">
+
+            <div id="nav">
+                <div id="logo">
+
+       
+
+                            <img src="images/logo.png" alt="" class="kongz">
+
+               
+
+                    <div  class="kongy" id="one">
+
+                        欢迎登录
+                    </div>
+
+                </div>
+
+                <div id="two" class="kongy">
+                        <img src="images/navtubiao.png" alt="" class="kongz">
+                        <span class="kongz">登录页面,调查问卷</span>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- content_2 -->
+
+        <div class="navbig2">
+                <div class="big2">
+
+
+                    <img src="images/big2.png" alt="" class="kongz">  
+
+                    <span class="kongz">依据《网络安全法》,为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《<i>京东隐私政策</i>》已上线，将更有利于保护您的个人隐私。</div>
+                    </span>
+
+
+
+        </div>
+
+
+        <!-- content_3 -->
+
+        <div class="content_3big">
+                    <div class="content_3">
+                            <div id="content_3_r">
+                                <!-- 上 -->
+                                    <div class="content_3_r_u">
+
+                                         <i> <img src="images/big2.png" alt=""></i>
+                                          <p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p> 
+
+
+                                            </div>
+
+
+
+                          <!-- 中间 -->
+                    <div class="content_3_r_m">
+                                    <div id="content_3_r_m1">
+                                        扫码登录
+
+                                    </div>
+
+                                    <div id="content_3_r_m2">
+
+                                        账户登录
+                                        </div>
+
+                        </div>
+
+                        <!-- 正中间 -->
+                            <div id="content_3_r_m3">
+                                    <div class="fd"></div>
+                                <div id="content_3_r_m31">
+                                       <div id="content_3_r_m32"> <img src="images/dengluerweima.png" alt=""></div>
+
+                                       <div id="content_3_r_m33">
+
+                                        <img src="images/phone-orange.png" alt="">
+                                       </div>
+
+                                </div>
+
+
+                                    <div class="content_3_r2">打开<i>手机京东扫描</i>&nbsp;&nbsp;&nbsp;&nbsp;二维码</div>
+
+
+
+                                    <div class="content_3_r3">
+                                            <div class="content_3_r3_1">
+
+
+                                                <img src="images/smalltubiao.png" alt=""></div>
+                                            <div class="ooo">免输入</div>
+
+
+                                            <div class="content_3_r3_1">
+
+
+                                                    <img src="images/smalltubiao.png" alt=""></div>
+                                                <div class="ooo">更快</div>
+    
+                                                <div class="content_3_r3_1">
+
+
+                                                        <img src="images/smalltubiao.png" alt=""></div>
+                                                    <div class="ooo">更安全</div>
+        
+                                          
+
+                                    </div>
+
+
+
+                                <div class="foot">
+                                    <div class="footer">
+                                        <img src="images/tutu.jpg" alt="">
+                                        <span>qq</span>
+                                    </div>
+
+                                    <div class="footer">
+                                            <img src="images/tutu.jpg" alt="">
+                                            <span>微信</span>
+                                        </div>
+                                    
+                                        <div class="footer" style="float: right">
+                                                <img src="images/tutu.jpg" alt="">
+                                                <span>立即注册</span>
+                                            </div>
+
+                                </div>
+                        
+                            
+                                  <!-- 下一个   -->
+
+
+                            </div>
+
+                        <!-- 隐藏的 -->
+                        <div id="content_3_r_m3x">
+
+
+
+
+                        </div>
+
+                    </div>
+
+                  
+            
+        </div>
+
+      
+    </div>
+            <script>
+            
+           
+
+            content_3_r_m31.onmouseout=function(){
+
+                content_3_r_m32.style.left="100px";
+                content_3_r_m33.style.display="none";
+            }
+            
+            content_3_r_m31.onmouseover=function(){
+
+                     content_3_r_m33.style.display="block";
+                     content_3_r_m32.style.left="20px";
+            }
+
+
+
+
+            content_3_r_m1.onclick=function(){
+                content_3_r_m3.style.display="none";
+                content_3_r_m3x.style.display="none";
+
+                content_3_r_m1.style.color="#666666"
+                content_3_r_m2.style.color="#666666"
+
+
+                    content_3_r_m3.style.display="block";
+       
+                    this.style.color="#e4393c";
+                
+
+            }
+
+            content_3_r_m2.onclick=function(){
+                content_3_r_m3.style.display="none";
+                content_3_r_m3x.style.display="none";
+
+                content_3_r_m1.style.color="#666666"
+                content_3_r_m2.style.color="#666666"
+
+
+                        content_3_r_m3x.style.display="block";
+                        content_3_r_m2.style.color="#e4393c"
+
+            }
+            
+            
+            </script>
+    
+              
+
+
+      
+</body>
+
+</html>
